@@ -1,0 +1,12 @@
+def add(num1,num2):
+    num3=int(num1)+int(num2)
+    return num3
+    
+    
+user_num=input()
+print(type(user_num))
+int_user_num=int(user_num)
+print(type(int_user_num))
+user_num2=int(input())
+output=add(user_num,user_num2)
+print("output is:",output)
